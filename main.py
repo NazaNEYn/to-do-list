@@ -4,7 +4,7 @@ def add_task(task):
     add_item = input("What do you want to add to your to-do list?\n").title()
 
     task.append(add_item)
-    print(f"'{add_item}' has been added.✅")
+    print(f"'{add_item}' has been added.")
 
 
 def view_task(task):
@@ -21,11 +21,11 @@ def remove_task(task):
     """Handles removing a task by number, including validation."""
     if 0 <= task_index < len(task):
         removed_item = task.pop(task_index)
-        print(f"\n✅ Task '{removed_item}' has been successfully removed!")
+        print(f"\n Task '{removed_item}' has been successfully removed!")
 
     else:
         # If the number is outside the valid range (e.g., they enter 99)
-        print(f"\n❌ Error: The number {user_number} is not on the list.")
+        print(f"\n Error: The number {user_number} is not on the list.")
 
 
 print("----------")
