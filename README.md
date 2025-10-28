@@ -3,6 +3,8 @@ This is a simple, command-line To-Do List application built with Python. It allo
 
 This project was built as a fundamental exercise during the "100 Days of Python" course to practice core Python concepts like functions, lists, loops, and user input.
 
+# Demo
+You can check out the demo **[here](https://www.youtube.com/watch?v=eOLMHmjTE1E)**
 
 # Features
 * **Add Tasks**: Quickly enter a new task to be added to the list.
